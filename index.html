@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grade 10 Math – Q1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Grade 10 Math App – Q1</h1>
+</header>
+
+<div class="container">
+
+<div class="card">
+  <h2>Arithmetic Sequence</h2>
+  <input id="a1" type="number" placeholder="First term (a₁)">
+  <input id="d" type="number" placeholder="Common difference (d)">
+  <input id="n_arith" type="number" placeholder="Term number (n)">
+  <button onclick="arith()">Solve</button>
+  <div id="arith_result" class="result"></div>
+</div>
+
+<div class="card">
+  <h2>Geometric Sequence</h2>
+  <input id="g1" type="number" placeholder="First term (a₁)">
+  <input id="r" type="number" placeholder="Common ratio (r)">
+  <input id="n_geo" type="number" placeholder="Term number (n)">
+  <button onclick="geo()">Solve</button>
+  <div id="geo_result" class="result"></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
